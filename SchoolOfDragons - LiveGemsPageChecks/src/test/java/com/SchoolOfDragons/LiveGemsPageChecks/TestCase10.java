@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+
 import Factory.BrowserFactory;
 import Pages.AfterLoggedInPage;
 import Pages.CommonHeader;
@@ -19,6 +20,7 @@ import Pages.GemsPage;
 import Pages.LoginPage;
 import ReUse.SendMail;
 import Utility.CaptureScreenshot;
+
 
 public class TestCase10
 {
@@ -80,7 +82,8 @@ public class TestCase10
 		Thread.sleep(5000);		
 		GemsPage gemsPage = PageFactory.initElements(driver, GemsPage.class);
 		gemsPage.gemsTabClick();			
-		gemsPage.verifyAllGemsOptionsandFeatures(logger);				
+		gemsPage.verifyAllGemsOptionsandFeatures(logger);	
+		gemsPage.verifySelectPaymentMethodDBandPaymentForm(logger);
 		BrowserFactory.closeBrowser();
 		logger.log(LogStatus.INFO, "Quitting the Browser Opened");		
 	}
@@ -108,11 +111,11 @@ public class TestCase10
 	@AfterTest
 	public void printReportPath() throws Throwable
 	{
-		WebDriver driver = BrowserFactory.getBrowser("chrome");
+		//WebDriver driver = BrowserFactory.getBrowser("chrome");
 		String emailReportPathToSend = ExtentManager.finalPath;	
 		System.out.println(testCase1Result); 		
 		String mailContent = "You can refer to the below report for the run result\n"+emailReportPathToSend;
-		SendMail.sendMailOnlyContent(driver, "School Of Dragons - Live - Gems Page Verification",mailContent);
+		//SendMail.sendMailOnlyContent(driver, "School Of Dragons - Live - Gems Page Verification",mailContent);
 		BrowserFactory.closeBrowser();
 	}
 

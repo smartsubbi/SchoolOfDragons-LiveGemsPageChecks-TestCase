@@ -7,4 +7,17 @@
       <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase10"/>
     </classes>
   </test> <!-- Live Tests -->
+  <test name="Live Tests(failed)">
+    <classes>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase10">
+        <methods>
+          <include name="ValidAuthorisedPlayerLogin" invocation-numbers="0"/>
+          <include name="printReportPath"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase10 -->
+    </classes>
+  </test> <!-- Live Tests(failed) -->
 </suite> <!-- Failed suite [Live Test Cases Suite] -->

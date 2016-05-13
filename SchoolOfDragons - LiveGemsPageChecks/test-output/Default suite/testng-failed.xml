@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Live Test Cases Suite]">
-  <parameter name="Category" value="Live Test Cases"/>
-  <test name="Live Tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase10"/>
     </classes>
-  </test> <!-- Live Tests -->
-  <test name="Live Tests(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
       <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase10">
         <methods>
-          <include name="ValidAuthorisedPlayerLogin" invocation-numbers="0"/>
-          <include name="printReportPath"/>
-          <include name="afterTest"/>
+          <include name="ValidAuthorisedPlayerLogin"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase10 -->
     </classes>
-  </test> <!-- Live Tests(failed) -->
-</suite> <!-- Failed suite [Live Test Cases Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
