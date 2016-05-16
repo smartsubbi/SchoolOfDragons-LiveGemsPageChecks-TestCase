@@ -24,7 +24,7 @@ public class TestCase18
 	ExtentReports report;
 	ExtentTest logger;		
 	String Category;
-	String testCase18Result = "No result";
+	static String testCase18Result = "No result";
 	
 	@BeforeClass
 	public void setUp() throws Throwable

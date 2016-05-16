@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -16,6 +17,7 @@ import Pages.AfterLoggedInPage;
 import Pages.CommonHeader;
 import Pages.GemsPage;
 import Pages.LoginPage;
+import ReUse.SendMailSSL;
 import Utility.CaptureScreenshot;
 
 
@@ -26,7 +28,7 @@ public class TestCase14
 	ExtentReports report;
 	ExtentTest logger;		
 	String Category;
-	String testCase14Result = "No result";
+	static String testCase14Result = "No result";
 	
 	@BeforeClass
 	public void setUp() throws Throwable
@@ -105,5 +107,24 @@ public class TestCase14
 		report.flush();	
 		BrowserFactory.closeBrowser();
 		report.close();				
+	}
+	
+	@AfterTest
+	public void sendMail()
+	{
+		String emailReportPathToSend = ExtentManager.finalPath;
+		String mailContent ="You can refer to the below report path for the run result : \n"+emailReportPathToSend+
+				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
+				"\n\n ========================================================================================================"+
+				"\n Test Case Results as below "+
+				"\n ========================================================================================================"+
+				"\n\n Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase14.testCase14Result+
+		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase15.testCase15Result+
+		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase16.testCase16Result+
+		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase17.testCase17Result+
+		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase18.testCase18Result+
+		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and MolPoints Payment form : "+TestCase19.testCase19Result;
+		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Select Payment DB and MolPoints Payment form for all Gems Options";
+		SendMailSSL.sendMail(mailContent, mailSubject);		
 	}
 }
