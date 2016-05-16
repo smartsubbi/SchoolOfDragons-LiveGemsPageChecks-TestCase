@@ -121,7 +121,7 @@ public class TestCase2
 		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
 		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
 		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result;
-		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content";
+		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Select Payment DB and Visa Payment form for all Gems Options";
 		SendMailSSL.sendMail(mailContent, mailSubject);		
 	}
 }
