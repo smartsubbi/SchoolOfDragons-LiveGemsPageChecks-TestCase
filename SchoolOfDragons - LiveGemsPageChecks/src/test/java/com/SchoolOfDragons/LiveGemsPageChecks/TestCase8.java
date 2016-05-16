@@ -111,16 +111,17 @@ public class TestCase8
 	public void sendMail()
 	{
 		String emailReportPathToSend = ExtentManager.finalPath;
-		String mailContent =
-				"\n\n =============================================================================================================================================================================="+
-				"\n\n You can refer to the below report for the run result\n"+emailReportPathToSend+
-				"\n\n =============================================================================================================================================================================="+
-				"\n\n Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase8.testCase8Result+
-		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase9.testCase9Result+
-		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase10.testCase10Result+
-		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase11.testCase11Result+
-		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase12.testCase12Result+
-		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase13.testCase13Result;
+		String mailContent ="You can refer to the below report path for the run result : \n"+emailReportPathToSend+
+				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
+				"\n\n ========================================================================================================"+
+				"\n Test Case Results as below "+
+				"\n ========================================================================================================"+
+				"\n\n Test Case 8 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase8.testCase8Result+
+		        "\n\n Test Case 9 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase9.testCase9Result+
+		        "\n\n Test Case 10 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase10.testCase10Result+
+		        "\n\n Test Case 11 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase11.testCase11Result+
+		        "\n\n Test Case 12 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase12.testCase12Result+
+		        "\n\n Test Case 13 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form : "+TestCase13.testCase13Result;
 		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Select Payment DB and MasterCard Payment form for all Gems Options";
 		SendMailSSL.sendMail(mailContent, mailSubject);		
 	}
