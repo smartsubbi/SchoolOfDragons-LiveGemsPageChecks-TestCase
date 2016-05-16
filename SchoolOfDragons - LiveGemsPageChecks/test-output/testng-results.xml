@@ -1,203 +1,386 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Verify Select Payment DB and MolPoints Payment form Suite" duration-ms="649691" started-at="2016-05-16T11:54:54Z" finished-at="2016-05-16T12:05:44Z">
+  <suite name="Verify Select Payment DB and PayPal Payment form Suite" duration-ms="647144" started-at="2016-05-16T14:11:11Z" finished-at="2016-05-16T14:21:58Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="649691" started-at="2016-05-16T11:54:54Z" finished-at="2016-05-16T12:05:44Z">
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase19">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase19@59fa1d9b]" name="setUp" is-config="true" duration-ms="5384" started-at="2016-05-16T17:34:01Z" finished-at="2016-05-16T17:34:06Z">
+    <test name="Live Tests" duration-ms="647144" started-at="2016-05-16T14:11:11Z" finished-at="2016-05-16T14:21:58Z">
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase21">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase21@224edc67]" name="setUp" is-config="true" duration-ms="5391" started-at="2016-05-16T19:43:00Z" finished-at="2016-05-16T19:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase19@59fa1d9b]" name="ValidAuthorisedPlayerLogin" duration-ms="97958" started-at="2016-05-16T17:34:06Z" finished-at="2016-05-16T17:35:44Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase21@224edc67]" name="ValidAuthorisedPlayerLogin" duration-ms="100105" started-at="2016-05-16T19:43:05Z" finished-at="2016-05-16T19:44:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase19@59fa1d9b]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-16T17:35:44Z" finished-at="2016-05-16T17:35:44Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase21@224edc67]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T19:44:45Z" finished-at="2016-05-16T19:44:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase19.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase19@59fa1d9b] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase21.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase21@224edc67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase19@59fa1d9b]" name="tearDown" is-config="true" duration-ms="39" started-at="2016-05-16T17:35:44Z" finished-at="2016-05-16T17:35:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase21@224edc67]" name="tearDown" is-config="true" duration-ms="46" started-at="2016-05-16T19:44:45Z" finished-at="2016-05-16T19:44:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase19 -->
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase14">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase14@4c70fda8]" name="setUp" is-config="true" duration-ms="7100" started-at="2016-05-16T17:24:54Z" finished-at="2016-05-16T17:25:01Z">
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase21 -->
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase20">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase20@4c70fda8]" name="setUp" is-config="true" duration-ms="8901" started-at="2016-05-16T19:41:11Z" finished-at="2016-05-16T19:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase14@4c70fda8]" name="ValidAuthorisedPlayerLogin" duration-ms="108628" started-at="2016-05-16T17:25:01Z" finished-at="2016-05-16T17:26:50Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase20@4c70fda8]" name="ValidAuthorisedPlayerLogin" duration-ms="99585" started-at="2016-05-16T19:41:20Z" finished-at="2016-05-16T19:43:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase14@4c70fda8]" name="tearDown" is-config="true" duration-ms="182" started-at="2016-05-16T17:26:50Z" finished-at="2016-05-16T17:26:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase14@4c70fda8]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T17:26:50Z" finished-at="2016-05-16T17:26:50Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase20@4c70fda8]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-16T19:43:00Z" finished-at="2016-05-16T19:43:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase14.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase14@4c70fda8] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase20.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase20@4c70fda8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase14 -->
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase16">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase16@14acaea5]" name="setUp" is-config="true" duration-ms="5155" started-at="2016-05-16T17:28:46Z" finished-at="2016-05-16T17:28:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase20@4c70fda8]" name="tearDown" is-config="true" duration-ms="201" started-at="2016-05-16T19:43:00Z" finished-at="2016-05-16T19:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase20 -->
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase23">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase23@46d56d67]" name="setUp" is-config="true" duration-ms="4909" started-at="2016-05-16T19:46:31Z" finished-at="2016-05-16T19:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase16@14acaea5]" name="ValidAuthorisedPlayerLogin" duration-ms="100401" started-at="2016-05-16T17:28:51Z" finished-at="2016-05-16T17:30:31Z">
+        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase23@46d56d67]" name="ValidAuthorisedPlayerLogin" duration-ms="98051" started-at="2016-05-16T19:46:36Z" finished-at="2016-05-16T19:48:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at Pages.GemsPage.verifyPayPalPage(GemsPage.java:648)
+	at Pages.GemsPage.verifySelectPaymentMethodDBandPaymentPayPalFormGeneral(GemsPage.java:487)
+	at Pages.GemsPage.verifyFourthGemsOptionSelectPaymentMethodDBandPaymentFormPayPal(GemsPage.java:985)
+	at com.SchoolOfDragons.LiveGemsPageChecks.TestCase23.ValidAuthorisedPlayerLogin(TestCase23.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase23@46d56d67]" name="afterTest" is-config="true" duration-ms="3253" started-at="2016-05-16T19:48:14Z" finished-at="2016-05-16T19:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase23.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase23@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase23@46d56d67]" name="tearDown" is-config="true" duration-ms="853" started-at="2016-05-16T19:48:17Z" finished-at="2016-05-16T19:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase23 -->
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase22">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase22@14acaea5]" name="setUp" is-config="true" duration-ms="4980" started-at="2016-05-16T19:44:45Z" finished-at="2016-05-16T19:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase22@14acaea5]" name="ValidAuthorisedPlayerLogin" duration-ms="97039" started-at="2016-05-16T19:44:50Z" finished-at="2016-05-16T19:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at Pages.GemsPage.verifyPayPalPage(GemsPage.java:648)
+	at Pages.GemsPage.verifySelectPaymentMethodDBandPaymentPayPalFormGeneral(GemsPage.java:487)
+	at Pages.GemsPage.verifyThirdGemsOptionSelectPaymentMethodDBandPaymentFormPayPal(GemsPage.java:930)
+	at com.SchoolOfDragons.LiveGemsPageChecks.TestCase22.ValidAuthorisedPlayerLogin(TestCase22.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase22@14acaea5]" name="afterTest" is-config="true" duration-ms="2702" started-at="2016-05-16T19:46:27Z" finished-at="2016-05-16T19:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase22.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase22@14acaea5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase22@14acaea5]" name="tearDown" is-config="true" duration-ms="1168" started-at="2016-05-16T19:46:30Z" finished-at="2016-05-16T19:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase22 -->
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase25">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase25@59fa1d9b]" name="setUp" is-config="true" duration-ms="4750" started-at="2016-05-16T19:50:05Z" finished-at="2016-05-16T19:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase25@59fa1d9b]" name="ValidAuthorisedPlayerLogin" duration-ms="96789" started-at="2016-05-16T19:50:10Z" finished-at="2016-05-16T19:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at Pages.GemsPage.verifyPayPalPage(GemsPage.java:648)
+	at Pages.GemsPage.verifySelectPaymentMethodDBandPaymentPayPalFormGeneral(GemsPage.java:487)
+	at Pages.GemsPage.verifySixthGemsOptionSelectPaymentMethodDBandPaymentFormPayPal(GemsPage.java:1095)
+	at com.SchoolOfDragons.LiveGemsPageChecks.TestCase25.ValidAuthorisedPlayerLogin(TestCase25.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase25@59fa1d9b]" name="afterTest" is-config="true" duration-ms="1575" started-at="2016-05-16T19:51:47Z" finished-at="2016-05-16T19:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase25.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase25@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase25@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-05-16T19:51:48Z" finished-at="2016-05-16T19:51:48Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Timeout waiting for process to die
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:143)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:201)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:246)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:194)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:364)
+	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:310)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:529)
+	at Factory.BrowserFactory.closeBrowser(BrowserFactory.java:37)
+	at com.SchoolOfDragons.LiveGemsPageChecks.TestCase25.tearDown(TestCase25.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.os.ProcessUtils$ProcessStillAliveException: Timeout waiting for process to die
+	at org.openqa.selenium.os.ProcessUtils.waitForProcessDeath(ProcessUtils.java:67)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:139)
+	... 36 more
+Caused by: java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(Unknown Source)
+	at org.openqa.selenium.os.ProcessUtils$ProcessWaiter.run(ProcessUtils.java:164)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase25 -->
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase24">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase24@d8355a8]" name="setUp" is-config="true" duration-ms="5466" started-at="2016-05-16T19:48:18Z" finished-at="2016-05-16T19:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase24@d8355a8]" name="ValidAuthorisedPlayerLogin" duration-ms="101174" started-at="2016-05-16T19:48:24Z" finished-at="2016-05-16T19:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Select Payment DB and PayPal Payment form]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase16@14acaea5]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-16T17:30:31Z" finished-at="2016-05-16T17:30:31Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase24@d8355a8]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T19:50:05Z" finished-at="2016-05-16T19:50:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase16.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase16@14acaea5] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase24.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase24@d8355a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase16@14acaea5]" name="tearDown" is-config="true" duration-ms="53" started-at="2016-05-16T17:30:31Z" finished-at="2016-05-16T17:30:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase24@d8355a8]" name="tearDown" is-config="true" duration-ms="37" started-at="2016-05-16T19:50:05Z" finished-at="2016-05-16T19:50:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase16 -->
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase15">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase15@224edc67]" name="setUp" is-config="true" duration-ms="5522" started-at="2016-05-16T17:26:50Z" finished-at="2016-05-16T17:26:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase15@224edc67]" name="ValidAuthorisedPlayerLogin" duration-ms="109970" started-at="2016-05-16T17:26:56Z" finished-at="2016-05-16T17:28:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase15@224edc67]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-16T17:28:46Z" finished-at="2016-05-16T17:28:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase15.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase15@224edc67] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase15@224edc67]" name="tearDown" is-config="true" duration-ms="55" started-at="2016-05-16T17:28:46Z" finished-at="2016-05-16T17:28:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase15 -->
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase18">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase18@d8355a8]" name="setUp" is-config="true" duration-ms="5983" started-at="2016-05-16T17:32:16Z" finished-at="2016-05-16T17:32:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase18@d8355a8]" name="ValidAuthorisedPlayerLogin" duration-ms="98983" started-at="2016-05-16T17:32:22Z" finished-at="2016-05-16T17:34:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase18@d8355a8]" name="tearDown" is-config="true" duration-ms="51" started-at="2016-05-16T17:34:01Z" finished-at="2016-05-16T17:34:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase18@d8355a8]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T17:34:01Z" finished-at="2016-05-16T17:34:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase18.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase18@d8355a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase18 -->
-      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase17">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase17@46d56d67]" name="setUp" is-config="true" duration-ms="5851" started-at="2016-05-16T17:30:31Z" finished-at="2016-05-16T17:30:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase17@46d56d67]" name="ValidAuthorisedPlayerLogin" duration-ms="98318" started-at="2016-05-16T17:30:37Z" finished-at="2016-05-16T17:32:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Verify Select Payment DB and MolPoints Payment form]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase17@46d56d67]" name="tearDown" is-config="true" duration-ms="47" started-at="2016-05-16T17:32:16Z" finished-at="2016-05-16T17:32:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase17@46d56d67]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T17:32:16Z" finished-at="2016-05-16T17:32:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase17.ValidAuthorisedPlayerLogin(java.lang.String)[pri:1, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase17@46d56d67] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase17 -->
+      </class> <!-- com.SchoolOfDragons.LiveGemsPageChecks.TestCase24 -->
     </test> <!-- Live Tests -->
-  </suite> <!-- Verify Select Payment DB and MolPoints Payment form Suite -->
+  </suite> <!-- Verify Select Payment DB and PayPal Payment form Suite -->
 </testng-results>

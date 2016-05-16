@@ -9,9 +9,9 @@
 			<id>git-smartsubbi</id>
 			<name>smartsubbi's Git based repo</name>
 			<url>https://github.com/smartsubbi/mvn-repo/raw/master/</url>
-		</repository>		
+		</repository>
 	</repositories>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -37,11 +37,11 @@
 			<groupId>com.relevantcodes</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>2.41.0</version>
-		</dependency>
+		</dependency>	
 		<dependency>
 			<groupId>SODFrameWork</groupId>
 			<artifactId>SODFrameWork</artifactId>
-			<version>1.2.3</version>
+			<version>1.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.mail</groupId>
@@ -76,8 +76,7 @@
 						<emailid>${emailid}</emailid>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>SchoolOfDragons - Live - LiveLoginChecksTestCases -
-							testNG.xml</suiteXmlFile>
+						<suiteXmlFile>SchoolOfDragons - Live - LiveGemsPageChecksTestCases - PayPal Form - testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
