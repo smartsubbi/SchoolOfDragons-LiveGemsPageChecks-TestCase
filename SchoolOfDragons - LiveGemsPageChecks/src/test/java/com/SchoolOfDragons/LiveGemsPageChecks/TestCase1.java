@@ -120,7 +120,7 @@ public class TestCase1
 				"\n\n ========================================================================================================"+
 				"\n Test Case Results as below "+
 				"\n ========================================================================================================"+
-				"\n\n School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content : "+testCase1Result;		
+				"\n\n Test Case 1 : School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content : "+testCase1Result;		
 		SendMailSSL.sendMail(mailContent, mailSubject);	
 	}
 
