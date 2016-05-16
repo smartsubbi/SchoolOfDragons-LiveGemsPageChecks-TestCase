@@ -111,10 +111,11 @@ public class TestCase2
 	public void sendMail()
 	{
 		String emailReportPathToSend = ExtentManager.finalPath;
-		String mailContent =
-				"\n\n =============================================================================================================================================================================="+
-				"\n\n You can refer to the below report for the run result\n"+emailReportPathToSend+
-				"\n\n =============================================================================================================================================================================="+
+		String mailContent ="You can refer to the below report path for the run result : \n"+emailReportPathToSend+
+				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
+				"\n\n ========================================================================================================"+
+				"\n Test Case Results as below "+
+				"\n ========================================================================================================"+
 				"\n\n Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
 		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase3.testCase3Result+
 		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase4.testCase4Result+
