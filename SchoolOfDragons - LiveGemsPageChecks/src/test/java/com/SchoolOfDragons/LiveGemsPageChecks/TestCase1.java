@@ -118,8 +118,8 @@ public class TestCase1
 		String mailContent = "You can refer to the below report path for the run result : \n"+emailReportPathToSend+
 				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
 				"\n\n ========================================================================================================"+
-				"\n\n Test Case Results as below "+
-				"\n\n ========================================================================================================"+
+				"\n Test Case Results as below "+
+				"\n ========================================================================================================"+
 				"\n\n School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content : "+testCase1Result;		
 		SendMailSSL.sendMail(mailContent, mailSubject);	
 	}
