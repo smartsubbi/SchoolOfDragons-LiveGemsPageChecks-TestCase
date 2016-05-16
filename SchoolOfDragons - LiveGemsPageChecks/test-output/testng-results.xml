@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content" duration-ms="83589" started-at="2016-05-16T07:06:55Z" finished-at="2016-05-16T07:08:19Z">
+  <suite name="School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content" duration-ms="112340" started-at="2016-05-16T08:15:07Z" finished-at="2016-05-16T08:16:59Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="83589" started-at="2016-05-16T07:06:55Z" finished-at="2016-05-16T07:08:19Z">
+    <test name="Live Tests" duration-ms="112340" started-at="2016-05-16T08:15:07Z" finished-at="2016-05-16T08:16:59Z">
       <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="setUp" is-config="true" duration-ms="5250" started-at="2016-05-16T12:36:55Z" finished-at="2016-05-16T12:37:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="setUp" is-config="true" duration-ms="4816" started-at="2016-05-16T13:45:07Z" finished-at="2016-05-16T13:45:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="ValidAuthorisedPlayerLogin" duration-ms="73311" started-at="2016-05-16T12:37:00Z" finished-at="2016-05-16T12:38:14Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="ValidAuthorisedPlayerLogin" duration-ms="103492" started-at="2016-05-16T13:45:11Z" finished-at="2016-05-16T13:46:55Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="tearDown" is-config="true" duration-ms="203" started-at="2016-05-16T12:38:14Z" finished-at="2016-05-16T12:38:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="tearDown" is-config="true" duration-ms="200" started-at="2016-05-16T13:46:55Z" finished-at="2016-05-16T13:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T12:38:14Z" finished-at="2016-05-16T12:38:14Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-16T13:46:55Z" finished-at="2016-05-16T13:46:55Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="printReportPath" is-config="true" duration-ms="4816" started-at="2016-05-16T12:38:14Z" finished-at="2016-05-16T12:38:19Z">
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveGemsPageChecks.TestCase1@2b98378d]" name="printReportPath" is-config="true" duration-ms="3812" started-at="2016-05-16T13:46:55Z" finished-at="2016-05-16T13:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->
