@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Select Payment DB and MolPoints Payment form Suite">
+	<parameter name="Category" value="Verify Select Payment DB and MolPoints Payment form" />
+	<test name="Live Tests">
+		<classes>			
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase14" />		 	
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase15" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase16" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase17" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase18" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase19" />	  	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

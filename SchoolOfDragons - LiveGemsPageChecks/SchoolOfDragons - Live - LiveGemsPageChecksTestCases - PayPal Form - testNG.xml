@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Select Payment DB and PayPal Payment form Suite">
+	<parameter name="Category" value="Verify Select Payment DB and PayPal Payment form" />
+	<test name="Live Tests">
+		<classes>			
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase20" />		 	
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase21" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase22" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase23" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase24" />
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase25" />	  	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

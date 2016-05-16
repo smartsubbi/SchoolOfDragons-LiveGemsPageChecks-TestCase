@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Live Test Cases Suite">
-	<parameter name="Category" value="Live Test Cases" />
+<suite name="School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content">
+	<parameter name="Category" value="School Of Dragons - Live - Verify Gems Page" />
 	<test name="Live Tests">
 		<classes>
-			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase10" />		  	
+			<class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase1" />		  	
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

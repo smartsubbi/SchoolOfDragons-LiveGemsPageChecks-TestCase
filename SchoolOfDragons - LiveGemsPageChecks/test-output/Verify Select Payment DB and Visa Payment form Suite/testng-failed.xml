@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Verify Select Payment DB and Visa Payment form Suite]">
+  <parameter name="Category" value="Verify Select Payment DB and Visa Payment form"/>
+  <test name="Live Tests">
+    <classes>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase2"/>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase3"/>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase4"/>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase5"/>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase6"/>
+      <class name="com.SchoolOfDragons.LiveGemsPageChecks.TestCase7"/>
+    </classes>
+  </test> <!-- Live Tests -->
+</suite> <!-- Failed suite [Verify Select Payment DB and Visa Payment form Suite] -->

@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -16,17 +17,16 @@ import Pages.AfterLoggedInPage;
 import Pages.CommonHeader;
 import Pages.GemsPage;
 import Pages.LoginPage;
+import ReUse.SendMailSSL;
 import Utility.CaptureScreenshot;
 
-
-
-public class TestCase10
+public class TestCase2
 {
 	WebDriver driver;
 	ExtentReports report;
 	ExtentTest logger;		
 	String Category;
-	String testCase10Result = "No result";
+	static String testCase2Result = "No result";
 	
 	@BeforeClass
 	public void setUp() throws Throwable
@@ -36,10 +36,10 @@ public class TestCase10
 	}
 	
 	@Parameters(value="Category")
-	@Test(priority=1)
+	@Test
 	public void ValidAuthorisedPlayerLogin(String catg) throws Throwable
 	{
-		logger = report.startTest("Test Case 10 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and MasterCard Payment form","This test case will verify Third Gems option ("+GemsPage.thirdGemsAmount1+") Select Payment DB and MasterCard Payment form");		
+		logger = report.startTest("Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and Visa Payment form","This test case will verify First Gems option ("+GemsPage.firstGemsAmount1+") Select Payment DB and Visa Payment form");		
 		logger.log(LogStatus.INFO, "Browser is up and running");
 		String browserOpenedScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "browserOpenedScreenshot"));
 		logger.log(LogStatus.INFO, browserOpenedScreenshot);		
@@ -80,11 +80,10 @@ public class TestCase10
 		Thread.sleep(5000);		
 		GemsPage gemsPage = PageFactory.initElements(driver, GemsPage.class);
 		gemsPage.gemsTabClick();			
-		gemsPage.verifyThirdGemsOptionSelectPaymentMethodDBandPaymentFormMasterCard(logger);
+		gemsPage.verifyFirstGemsOptionSelectPaymentMethodDBandPaymentFormVisa(logger);
 		BrowserFactory.closeBrowser();
 		logger.log(LogStatus.INFO, "Quitting the Browser Opened");		
-	}
-	
+	}	
 	
 	@AfterMethod
 	public void afterTest(ITestResult result) throws Throwable
@@ -94,9 +93,9 @@ public class TestCase10
 			logger.log(LogStatus.FAIL, "<pre>" + result.getThrowable().getMessage() + "</pre>");
 			String failureScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver,result.getName()));			  
 			logger.log(LogStatus.FAIL, failureScreenshot);	
-			testCase10Result = "Fail";
-		}		
-		testCase10Result = "Fail";
+			testCase2Result = "Fail";
+		}			
+		testCase2Result = "Pass";
 	}
 	
 	@AfterClass
@@ -106,5 +105,23 @@ public class TestCase10
 		report.flush();	
 		BrowserFactory.closeBrowser();
 		report.close();				
+	}
+	
+	@AfterTest
+	public void sendMail()
+	{
+		String emailReportPathToSend = ExtentManager.finalPath;
+		String mailContent =
+				"\n\n =============================================================================================================================================================================="+
+				"\n\n You can refer to the below report for the run result\n"+emailReportPathToSend+
+				"\n\n =============================================================================================================================================================================="+
+				"\n\n Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
+		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
+		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
+		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
+		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
+		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result;
+		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Gems Options and Features Content";
+		SendMailSSL.sendMail(mailContent, mailSubject);		
 	}
 }

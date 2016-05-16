@@ -20,13 +20,13 @@ import Utility.CaptureScreenshot;
 
 
 
-public class TestCase10
+public class TestCase13
 {
 	WebDriver driver;
 	ExtentReports report;
 	ExtentTest logger;		
 	String Category;
-	String testCase10Result = "No result";
+	String testCase13Result = "No result";
 	
 	@BeforeClass
 	public void setUp() throws Throwable
@@ -39,7 +39,7 @@ public class TestCase10
 	@Test(priority=1)
 	public void ValidAuthorisedPlayerLogin(String catg) throws Throwable
 	{
-		logger = report.startTest("Test Case 10 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and MasterCard Payment form","This test case will verify Third Gems option ("+GemsPage.thirdGemsAmount1+") Select Payment DB and MasterCard Payment form");		
+		logger = report.startTest("Test Case 13 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and MasterCard Payment form","This test case will verify sixth Gems option ("+GemsPage.sixthGemsAmount1+") Select Payment DB and MasterCard Payment form");		
 		logger.log(LogStatus.INFO, "Browser is up and running");
 		String browserOpenedScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "browserOpenedScreenshot"));
 		logger.log(LogStatus.INFO, browserOpenedScreenshot);		
@@ -80,9 +80,9 @@ public class TestCase10
 		Thread.sleep(5000);		
 		GemsPage gemsPage = PageFactory.initElements(driver, GemsPage.class);
 		gemsPage.gemsTabClick();			
-		gemsPage.verifyThirdGemsOptionSelectPaymentMethodDBandPaymentFormMasterCard(logger);
+		gemsPage.verifySixthGemsOptionSelectPaymentMethodDBandPaymentFormMasterCard(logger);
 		BrowserFactory.closeBrowser();
-		logger.log(LogStatus.INFO, "Quitting the Browser Opened");		
+		logger.log(LogStatus.INFO, "Quitting the Browser Opened");			
 	}
 	
 	
@@ -94,9 +94,9 @@ public class TestCase10
 			logger.log(LogStatus.FAIL, "<pre>" + result.getThrowable().getMessage() + "</pre>");
 			String failureScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver,result.getName()));			  
 			logger.log(LogStatus.FAIL, failureScreenshot);	
-			testCase10Result = "Fail";
+			testCase13Result = "Fail";
 		}		
-		testCase10Result = "Fail";
+		testCase13Result = "Pass";
 	}
 	
 	@AfterClass
