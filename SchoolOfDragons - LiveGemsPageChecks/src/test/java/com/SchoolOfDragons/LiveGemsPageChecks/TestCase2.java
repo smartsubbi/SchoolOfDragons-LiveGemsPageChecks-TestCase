@@ -116,11 +116,11 @@ public class TestCase2
 				"\n\n You can refer to the below report for the run result\n"+emailReportPathToSend+
 				"\n\n =============================================================================================================================================================================="+
 				"\n\n Test Case 2 : Live - Verify Gems page - First Gems option ("+GemsPage.firstGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
-		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
-		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
-		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
-		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result+
-		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase2.testCase2Result;
+		        "\n\n Test Case 3 : Live - Verify Gems page - Second Gems option ("+GemsPage.secondGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase3.testCase3Result+
+		        "\n\n Test Case 4 : Live - Verify Gems page - Third Gems option ("+GemsPage.thirdGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase4.testCase4Result+
+		        "\n\n Test Case 5 : Live - Verify Gems page - Fourth Gems option ("+GemsPage.fourthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase5.testCase5Result+
+		        "\n\n Test Case 6 : Live - Verify Gems page - Fifth Gems option ("+GemsPage.fifthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase6.testCase6Result+
+		        "\n\n Test Case 7 : Live - Verify Gems page - Sixth Gems option ("+GemsPage.sixthGemsAmount1+") Verify Select Payment DB and Visa Payment form : "+TestCase7.testCase7Result;
 		String mailSubject = "School Of Dragons - Live - Verify Gems Page - Select Payment DB and Visa Payment form for all Gems Options";
 		SendMailSSL.sendMail(mailContent, mailSubject);		
 	}
