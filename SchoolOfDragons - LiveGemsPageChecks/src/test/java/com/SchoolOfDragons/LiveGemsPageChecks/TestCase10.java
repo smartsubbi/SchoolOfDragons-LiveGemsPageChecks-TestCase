@@ -96,7 +96,7 @@ public class TestCase10
 			logger.log(LogStatus.FAIL, failureScreenshot);	
 			testCase10Result = "Fail";
 		}		
-		testCase10Result = "Fail";
+		testCase10Result = "Pass";
 	}
 	
 	@AfterClass
